@@ -12,6 +12,9 @@ public class Coworker {
         this.salary = salary;
         this.age = age;
     }
+    public int getAge(){
+        return age;
+    }
     public void info(){
         System.out.println("Name: " + name + ", position: " + position + ", email: " + email+ ", tel.: " + telephone + ", salary: " + salary + ", age: " + age);
     }
